@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!----Input section---->
+    <div class="main-container">
+        <img src="./resources/logo-S.png" alt="">
+       <div class="second-container">
+        <h1>What do we call you?</h1>
+            <form class="form-container">
+                <label class="text-form" for="email">Email</label>
+                <input class="hearthbeat-form-input" type="text" id="Email" name="Email" placeholder="Enter Email Adress">
+                <label class="text-form" for="first-name">First Name</label>
+                <input class="hearthbeat-form-input" type="text" id="first-name" name="first-name" placeholder="Enter First Name"/>
+                <label class="text-form" for="last-name">Last Name</label>
+                <input class="hearthbeat-form-input" type="text" id="last-name" name="last-name" placeholder="Enter Last Name"/>
+                <label class="text-form" for="location">Enter your location:</label>
+                <input class="hearthbeat-form-input" type="text" id="location" name="user_location" placeholder="Enter Location">
+                <label class="text-form">
+                LinkedIn Profile:
+                <input class="hearthbeat-form-input" type="url" name="linkedin" value="https://www.linkedin.com/in/your-profile-url">
+                </label>
+            </form>
+        </div>
+        <!-----Card Section----->
+        <div class="card-container">
+            <div><img src="./resources/avatar.png" alt="">
+            </div>
+            <p class="email-adress-text"></p>
+            <p class="first-name-text"></p>
+            <p class="last-name-text"></p>
+            <p class="location-text"></p>
+            <p class="linkedin-text"></p>
+            <hr>
+            <p>Your Bio</p>
+            
+        </div>
+     <!---------Button section------------>
+<div class="button-container">
+    <button>Back</button>
+    <button>Next</button>
+</div>
+    </div>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
