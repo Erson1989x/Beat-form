@@ -1,5 +1,5 @@
-const emailInput = document.querySelector(`[name="Email"]`); // Declaram un emailInput unde introducem emailul.
-const emailText = document.querySelector(`.email-adress-text`); // declaram un emailText unde vom vedea emailul introdus.
+const emailInput = document.querySelector(`[name="Email"]`); 
+const emailText = document.querySelector(`.email-adress-text`);
 const firstNameInput = document.querySelector('[name="first-name"]');
 const firstNameText = document.querySelector('.first-name-text');
 const lastNameInput = document.querySelector(`[name="last-name"]`);
@@ -9,7 +9,7 @@ const locationText = document.querySelector(`.location-text`);
 const linkedInInput = document.querySelector(`[name="linkedin"]`);
 const linkedInText = document.querySelector(`.linkedin-text`);
 
-const handleEmailAdressInput = () => {           // cu functia respectiva vom rezolva problema
+const handleEmailAdressInput = () => {           
     emailText.innerText = emailInput.value;
 }
 
@@ -30,7 +30,7 @@ const handleLinkedInInput = () => {
 }
 
 
-emailInput.addEventListener(`input`, handleEmailAdressInput); // declaram eventlistener pentru emailul introdus
+emailInput.addEventListener(`input`, handleEmailAdressInput); 
 firstNameInput.addEventListener('input', handleFirstNameInput);
 lastNameInput.addEventListener(`input`, handleLastNameInput);
 locationInput.addEventListener(`input`, handleLocationInput);
